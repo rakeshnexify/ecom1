@@ -1,11 +1,7 @@
-import AppRoutes from "./routes/AppRoutes";
+import AppRoutes from "./routes/AppRoutes.jsx";
 
 function App() {
-  return (
-    <main className="min-h-screen p-8">
-      <AppRoutes />
-    </main>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
